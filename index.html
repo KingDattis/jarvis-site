@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jarvis</title>
+  <meta name="description" content="Jarvis è un assistente personale per gestire e consultare gli eventi di Google Calendar tramite Telegram.">
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2933;
+      --muted: #52606d;
+      --accent: #1a56db;
+      --border: #e4e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+    header { padding-top: 56px; padding-bottom: 8px; }
+    h1 { font-size: 2.6rem; margin: 0; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.15rem; color: var(--muted); margin: 8px 0 0; }
+    nav { margin-top: 20px; }
+    nav a { color: var(--accent); text-decoration: none; font-weight: 600; margin-right: 18px; }
+    nav a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin: 24px 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 0; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    footer { padding-top: 16px; padding-bottom: 48px; color: var(--muted); font-size: 0.9rem; }
+    footer a { margin-right: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jarvis</h1>
+    <p class="tagline">Assistente personale per gestire e consultare gli eventi di Google Calendar tramite Telegram.</p>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Termini di servizio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Che cos'è Jarvis</h2>
+      <p>
+        Jarvis è un assistente personale che permette all'utente autorizzato di consultare e gestire
+        gli eventi del proprio Google Calendar direttamente da una chat Telegram, senza dover aprire
+        l'applicazione del calendario.
+      </p>
+      <p>
+        Jarvis è un programma che gira sul computer dell'utente: non è un servizio pubblico e risponde
+        solo all'utente autorizzato, riconosciuto tramite il proprio ID Telegram.
+      </p>
+    </section>
+
+    <section>
+      <h2>Scopo dell'app</h2>
+      <p>Jarvis nasce per rendere più rapida e comoda la gestione degli impegni quotidiani. Tramite semplici messaggi su Telegram è possibile, sul calendario principale dell'utente:</p>
+      <ul>
+        <li><strong>consultare</strong> gli eventi in programma (oggi, domani, una data, la settimana, i prossimi giorni) e cercarli per testo;</li>
+        <li><strong>creare</strong> nuovi eventi;</li>
+        <li><strong>modificare</strong> data e orari, <strong>spostare</strong> o <strong>rinominare</strong> eventi esistenti;</li>
+        <li><strong>eliminare</strong> eventi, sempre dopo una conferma esplicita.</li>
+      </ul>
+      <p>
+        Jarvis utilizza la Google Calendar API esclusivamente per svolgere le funzioni richieste dall'utente.
+        I dati non vengono venduti né utilizzati per pubblicità.
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy e condizioni d'uso</h2>
+      <p>
+        Per sapere quali dati vengono trattati, perché e come vengono protetti, consulta la
+        <a href="privacy.html">Privacy Policy</a>. Le condizioni di utilizzo del servizio sono descritte nei
+        <a href="terms.html">Termini di servizio</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Termini di servizio</a>
+    <p>&copy; 2026 Jarvis</p>
+  </footer>
+</body>
+</html>
